@@ -1,0 +1,25 @@
+
+.button {
+    height: 60px;
+    background-color: var(--blue-1);
+    color: var(--grey-4);
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    border: none;
+    text-align: center;
+}
+
+button:hover {
+    background-color: var(--blue-2);
+    border: none;
+    transition: 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+}
+
+.header__button {
+    background-color: transparent;
+    border: 1px solid var(--grey-4);
+}

@@ -1,0 +1,13 @@
+.footer {
+    height: 118.55px;
+    width: 100%;
+    padding: 50px 44% 50px 44%;
+    gap: 10%;
+    background-color: var(--grey-0);
+}
+
+.footer__h3 {
+    color: var(--grey-4);
+    font-size: 20px;
+    font-weight: 600;
+}
